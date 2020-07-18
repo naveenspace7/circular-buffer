@@ -1,8 +1,6 @@
 #include <gtest/gtest.h>
-#include "../circular_buffer.hpp"
 
-#include <iostream>
-using namespace std;
+#include "../circular_buffer.hpp"
 
 class CirBuffTest: public ::testing::Test
 {
