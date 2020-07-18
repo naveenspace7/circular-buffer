@@ -2,7 +2,7 @@
 
 #include <exception>
 
-class BufferSizeExceeded: public std::exception
+class ExBufferSizeExceeded: public std::exception
 {
     virtual const char* what() const throw()
     {
@@ -10,7 +10,7 @@ class BufferSizeExceeded: public std::exception
     }
 } BufferSizeExceeded;
 
-class BufferSizeNull: public std::exception
+class ExBufferSizeNull: public std::exception
 {
     virtual const char* what() const throw()
     {
